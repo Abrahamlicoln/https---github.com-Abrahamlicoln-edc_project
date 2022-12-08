@@ -39,7 +39,6 @@ if (mysqli_num_rows($result) > 0) {
         $wallet_balance = $row['wallet_balance'];
         if ($wallet_balance < $amount) {
             echo "Less Than";
-            $_SESSION['insuffient'] = "Set";
         } else {
             $response = curl_exec($curl);
             $response = json_decode($response);

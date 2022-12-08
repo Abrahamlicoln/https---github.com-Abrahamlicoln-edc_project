@@ -327,13 +327,15 @@ while ($row = mysqli_fetch_assoc($result)) {
                     },
                     success: function(data, textStatus) {
                         if (data == "Less Than") {
-                            window.location.href = "dashboard.php";
+                            <?php
+                            $_SESSION['insuffient'] = "Set";
+                            ?>
+                            window.location.href = "mtndata.php";
                         } else if (data == "Success") {
                             window.location.href = "successmtn.php";
                         } else {
                             window.location.href = "errormtn.php";
                         }
-
                     },
                     error: function() {
                         window.location.href = "errormtn.php";

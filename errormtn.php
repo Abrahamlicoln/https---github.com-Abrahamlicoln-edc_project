@@ -132,8 +132,8 @@ $main_amount = $amount * 100;
                                                 </center>
                                                 <div class="mt-2 mb-5">
                                                     <center>
-                                                        <h5 class="text-danger">Dear <b><?php echo $fullname; ?></b> <b><?php echo $buyer_phone; ?></b> is not a MTN Number.<br>
-                                                            <span class="text-danger"> Please Contact Us on +234 8066178827 or Whatsapp Us on Thesame Phone Number to Resolve your Issue.</span>
+                                                        <h5 class="text-danger">Dear <b><?php echo $fullname; ?></b>. Either this Phone Number <b><?php echo $buyer_phone; ?></b> is not an MTN Number or the Data has been Delivered to the Subscriber.<br>
+                                                            <span class="text-danger"> Please if the Issue Persist Contact Us on +234 8066178827 or Whatsapp Us on Thesame Phone Number to Resolve your Issue.</span>
 
 
                                                         </h5>
